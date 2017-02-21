@@ -1,0 +1,15 @@
+{
+  "name": "TwitchViewer",
+  "version": "1.0.0",
+  "description": "View status of certain Twitch streamers.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
