@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 });
 
 // Set the web server to listen on port 5000, or the environment port variable if specified
-var port = 5000 || process.env.PORT;
+var port = process.env.PORT || 5000;
 http.listen(port, function() {
     console.log('listening on *: ' + port);
 });
